@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bench_001",
+    "query": "Cliente ha inverter ZCS, il Wi-Fi è scollegato e non ha riavviato",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Nessuna, solo per tracciatura",
+    "expected_marca": "ZCS",
+    "expected_path": ["Inverter", "ZCS", "Connessione Wi-Fi"]
+  },
+  {
+    "id": "bench_002",
+    "query": "Inverter ZCS con codice di errore, produzione bassa, installato 3 anni fa",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Bo Solutions Elettrico",
+    "expected_marca": "ZCS"
+  },
+  {
+    "id": "bench_003",
+    "query": "Perdita d'acqua dalla caldaia ibrida, Daikin ha fatto collaudo",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Nessuna, solo per tracciatura",
+    "expected_marca": "Daikin"
+  },
+  {
+    "id": "bench_004",
+    "query": "Batteria ZCS spenta, riavvio fatto ma non risolve",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Bo Solutions Elettrico",
+    "expected_marca": "ZCS"
+  },
+  {
+    "id": "bench_005",
+    "query": "Wallbox non carica, display spento, installata da 1 anno",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Bo Solutions Elettrico",
+    "expected_path": ["Wallbox"]
+  },
+  {
+    "id": "bench_006",
+    "query": "Cliente segnala perdita di pressione sull'impianto termico, pressione sempre tra 1.5 e 2",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Nessuna, solo tracciatura",
+    "expected_marca": "Sconosciuta"
+  },
+  {
+    "id": "bench_007",
+    "query": "Impianto fotovoltaico con inverter Solar Edge, produzione a singhiozzo quando c'è tanto sole",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Nessuna, solo per tracciatura",
+    "expected_marca": "Solar Edge"
+  },
+  {
+    "id": "bench_008",
+    "query": "Cliente vuole assistenza per batterie Sonnen",
+    "expected_tripletta": "Richiesta – Fotovoltaico – Assistenza Tecnica",
+    "expected_assegnazione": "Nessuna, solo per tracciatura",
+    "expected_marca": "Sonnen"
+  }
+]

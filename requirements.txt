@@ -1,0 +1,8 @@
+llama-index-core>=0.14.0
+llama-index-embeddings-openai>=0.3.0
+llama-index-llms-openai>=0.3.0
+pymupdf>=1.24.0
+qdrant-client>=1.13.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+jupyter>=1.0.0
